@@ -1,3 +1,5 @@
+package tags;
+
 public class MetaViewport {
     private String width;
     private String initialScale;

@@ -1,3 +1,5 @@
+package tags;
+
 public class Meta {
     private String charset;
     private String author;
