@@ -4,6 +4,7 @@ public class Meta {
     private String charset;
     private String author;
     private String keywords;
+    private String description;
     private MetaViewport viewport;
 
     public Meta(String charset, String author, String keywords, MetaViewport viewport) {
@@ -29,6 +30,10 @@ public class Meta {
         if(keywords != null){
             string += "\t\t<meta name=\"keywords\" content=\"" + keywords + "\">\n";
         }
+        if(description != null){
+            string += "\t\t<meta name=\"description\" content=\"" + description + "\">\n";
+        }
+
         return string;
     }
 }

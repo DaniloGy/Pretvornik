@@ -23,7 +23,7 @@ public class Style {
         if(height != null){
             string += "height:" + height + ";";
         }
-        if(width != null){
+        if(textAlign != null){
             string += "text-align:" + textAlign + ";";
         }
         String string2;
